@@ -1,0 +1,35 @@
+html {
+      scroll-behavior: smooth;
+    }
+@font-face {
+        font-family: "Ethnocentric";
+        src: url("./fonts/Ethnocentric Rg It.otf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amoria';
+  src: url('./fonts/AMORIA.otf') format('truetype');
+  font-weight: bold;
+}
+
+nav li{
+  font-family:'Amoria';
+}
+
+h1{
+       font-family: "Ethnocentric";
+    }
+
+h2,h3{
+  font-family:'Amoria';
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}

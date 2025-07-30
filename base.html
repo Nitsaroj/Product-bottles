@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="flex justify-between px-30 py-4 list-none sticky top-0 bg-white z-20"
+    >
+      <li>HOME</li>
+      <li>PRODUCT</li>
+      <li>CONTACT</li>
+    </nav>
+    <section class="herosection">
+      <div class="h-[400px] flex justify-center items-center sticky top-15">
+        <div class="text-center">
+          <h1 class="text-[170px]" id="HeroText">ESTARLI</h1>
+          <p id="content" class="opacity-0 px-96">
+            This matte portable stainless steel water bottle is designed for
+            outdoor sports and travel, featuring thermal insulation performance,
+            a modern design style, and eco-friendly attributes. Suitable for
+            hiking and daily use, it supports custom logo printing and comes in
+            multiple colors like red, yellow, green, blue, and white. With a
+            capacity of 500ml and direct drinking functionality, it ensures
+            convenience and durability for users on the go.
+          </p>
+        </div>
+      </div>
+      <div class="relative flex justify-center">
+        <img src="images/Product.svg" alt="" class="h-[800px]" id="HeroImage" />
+      </div>
+      <div class="h-[200px]" id="showcontent"></div>
+    </section>
+
+    <section class="Prodcut h-[100dvh] bg-gray-100 py-10 sticky top-16 absolute " id="product">
+      <h2 class="text-6xl px-10 py-10">Product</h2>
+      <!-- Scroll Container -->
+      <div class="overflow-x-auto no-scrollbar px-4">
+        <!-- Grid Container -->
+        <div class="grid grid-flow-col auto-cols-[33.33%] gap-4">
+          <!-- Each Image Centered -->
+          <div class="flex items-center justify-center">
+            <img src="images/bottel1.png" alt="" class="w-32" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/bottel2.png" alt="" class="w-32" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/bottel3.png" alt="" class="w-32" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/bottel4.png" alt="" class="w-32" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/bottel5.png" alt="" class="w-32" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/bottel6.png" alt="" class="w-32" />
+          </div>
+        </div>
+      </div>
+
+      <div class="flex w-full justify-around items-center py-16">
+        <span>
+          <h3 class="text-3xl">Material</h3>
+          <p class="py-10 text-center">Stainless Steel</p>
+        </span>
+        <span>
+          <h3 class="text-3xl">capacity</h3>
+          <p class="py-10 text-center">500ml</p>
+        </span>
+        <span>
+          <h3 class="text-3xl">Color</h3>
+          <p class="py-10 text-center">Multiple</p>
+        </span>
+      </div>
+    </section>
+    <section class="Contact h-[100dvh] py-10 relative z-10 bg-white" id="contact">
+      <div class="max-w-8xl w-full grid md:grid-cols-2 gap-8 items-center md:p-20">
+        <!-- Left Text -->
+        <div class="text-center md:text-left w-3/6">
+          <h2 class="text-7xl leading-snug font-semibold">
+            Let<br />
+            Contact<br />
+            with us
+          </h2>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <form class="space-y-4">
+            <div>
+              <label class="block text-lg mb-1" for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="w-full border border-black p-3"
+              />
+            </div>
+            <div>
+              <label class="block text-lg mb-1" for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="w-full border border-black p-3"
+              />
+            </div>
+            <div>
+              <label class="block text-lg mb-1" for="phone">Phone</label>
+              <input
+                type="text"
+                id="phone"
+                class="w-full border border-black p-3"
+              />
+            </div>
+            <div>
+              <label class="block text-lg mb-1" for="message">Message</label>
+              <textarea
+                id="message"
+                rows="4"
+                class="w-full border border-black p-3"
+              ></textarea>
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="w-full bg-black text-white font-bold py-3 px-6 rounded hover:bg-gray-800 transition duration-300 tracking-widest"
+              >
+                SUBMIT
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
