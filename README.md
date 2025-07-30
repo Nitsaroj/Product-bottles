@@ -24,20 +24,6 @@ A landing page for the ESTARLI brand using **Tailwind CSS**, **GSAP ScrollTrigge
 
 ---
 
-## 📂 Folder Structure
-
-estarlı-landing-page/
-├── public/
-│ ├── fonts/
-│ ├── images/
-│ └── index.html
-├── src/
-│ ├── css/
-│ │ └── style.css
-│ └── js/
-│ └── script.js
-├── README.md
-
 
 ## 📂 Live [F11 for best expericence]
 
