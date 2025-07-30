@@ -26,17 +26,18 @@ A landing page for the ESTARLI brand using **Tailwind CSS**, **GSAP ScrollTrigge
 
 ## 📂 Folder Structure
 
-project-root/
-├── fonts/
-│ ├── Ethnocentric Rg It.otf
-│ └── AMORIA.otf
-├── images/
-│ └── Product.svg
-│ └── bottel1.png ... bottel6.png
-├── index.html
-├── script.js
-├── style.css
-└── README.md
+estarlı-landing-page/
+├── public/
+│ ├── fonts/
+│ ├── images/
+│ └── index.html
+├── src/
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── script.js
+├── README.md
+
 
 ## 📂 Live [F11 for best expericence]
 
